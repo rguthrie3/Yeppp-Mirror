@@ -1,0 +1,51 @@
+.DS_Store
+.hg/
+.hgeol
+.hgtags
+.hgignore
+tags
+
+.ninja_deps
+.ninja_log
+build.ninja
+
+library/headers/yepCore.h
+library/headers/yepMath.h
+library/sources/core/*.h
+library/sources/core/yepCore.disp.cpp
+library/sources/core/yepCore.impl.cpp
+library/sources/math/*.h
+library/sources/math/yepMath.disp.cpp
+library/sources/math/yepMath.impl.cpp
+
+# Generated bindings
+bindings/fortran/sources/*.f90
+bindings/java/sources-java/info/yeppp/Core.java
+bindings/java/sources-java/info/yeppp/Math.java
+bindings/java/sources-jni/core/*.c
+bindings/java/sources-jni/math/*.c
+bindings/clr/sources-csharp/core/*.cs
+bindings/clr/sources-csharp/math/*.cs
+
+# Generated unit tests
+unit-test/
+
+# Other auto-generated files
+bindings/clr/sources-csharp/VersionInfo.cs
+*.json
+*.d
+
+# Pre-compiled objects
+*.pyc
+*.obj
+*.o
+
+# Build objects
+library/build/
+bindings/java/build/
+bindings/clr/build/
+binaries/osx/x86-64/libyeppp.dylib
+binaries/osx/x86-64/libyeppp.dylib.dSYM
+binaries/osx/x86/libyeppp.dylib
+binaries/osx/x86/libyeppp.dylib.dSYM
+build/
